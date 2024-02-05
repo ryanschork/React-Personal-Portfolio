@@ -4,6 +4,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png"
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/wingman.png";
 import React, { useState } from 'react';
 
 export const Projects = () => {
@@ -29,10 +30,14 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg3,
-      },
+      title: "Wingman",
+      description: "UX/UI Design",
+      imgUrl: projImg4,
+      button: "Demo",
+      link: "https://www.figma.com/file/siWM3uAsJfoAUfcqsjxqpP/Wingman-App?type=design&node-id=41%3A2&mode=design&t=N9uA6RPaRGRx75LS-1",
+      buttonOne: "Case Study",
+      linkOne: "https://docs.google.com/presentation/d/1Om2Y9zOD-U2e9LUiLpN9G4I_EDIBvXnmAbF014uhKhI/edit?usp=sharing"
+    },
  
     // ... other projects
   ];

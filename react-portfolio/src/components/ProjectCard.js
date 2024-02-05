@@ -1,5 +1,5 @@
 import { Col } from "react-bootstrap";
-export const ProjectCard = ({title, description, imgUrl, button, link, buttonOne}) => {
+export const ProjectCard = ({title, description, imgUrl, button, link, buttonOne, linkOne}) => {
     return (
         <Col sm={6} className="project-card">
             <div className="proj-imgbx">
@@ -8,7 +8,7 @@ export const ProjectCard = ({title, description, imgUrl, button, link, buttonOne
                     <h4>{title}</h4>
                     <span>{description}</span>
                     <a href={link}><button className="proj-btn">{button}</button></a>
-                    <a href={link}><button className="git-btn">{buttonOne}</button></a>
+                    <a href={linkOne}><button className="git-btn">{buttonOne}</button></a>
                 </div>
             </div>
         </Col>
