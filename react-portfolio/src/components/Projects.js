@@ -4,8 +4,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png"
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/wingman.png";
-import projImg5 from "../assets/img/mal.png";
+import projImg4 from "../assets/img/wingmane.png";
+import projImg5 from "../assets/img/malist.png";
 import React, { useState } from 'react';
 
 export const Projects = () => {
