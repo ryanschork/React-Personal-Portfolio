@@ -34,7 +34,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #151515 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -236,6 +236,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+.Logo {
+  color: #fff;
+  font-weight: 700;
+}
+
 .thing-fix {
   text-decoration: none;
 }
@@ -353,9 +358,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  margin-top: 100px;
 }
 .skill-bx {
-  background: #151515;
+  background: #121212;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -385,8 +391,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 28%;
   position: absolute;
   bottom: 0;
-  width: 40%;
+  width: 100vw;
   z-index: -4;
+  height: auto;
 }
 .lang-icon {
 width: 100px;
@@ -698,5 +705,9 @@ margin: 0 auto 15px auto;
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+.Logo {
+  color: #fff;
+  font-weight: 700;
 }
 

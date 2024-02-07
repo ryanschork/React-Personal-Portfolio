@@ -6,7 +6,9 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/wingmane.png";
 import projImg5 from "../assets/img/malist.png";
+import projImg6 from "../assets/img/xgames.png";
 import React, { useState } from 'react';
+import xgamesVideo from "../assets/img/xgamesims.mp4"
 
 export const Projects = () => {
   const [key, setKey] = useState("first");
@@ -47,6 +49,15 @@ export const Projects = () => {
       link: "https://www.figma.com/file/bMYw1TZhxgw9q5JlTMf5v4/MAL-Redesign?type=design&node-id=3%3A2&mode=design&t=CSlUgd1G0UrtuiiE-1",
       buttonOne: "Case Study",
       linkOne: "https://docs.google.com/presentation/d/1lp17rNmBhmvK59h_1swszz8sgvMZH_FWlh1AXtwdHZ8/edit?usp=sharing",
+    },
+    {
+      title: "X-Games Arcade",
+      description: "Brand Extension / Experience Design",
+      imgUrl: projImg6,
+      button: "Presentation Deck",
+      link: "https://docs.google.com/presentation/d/1dWfm3k_YdV-Phh7UJkFDsEmvTOy6xftz7_9_Hxc1z5Y/edit?usp=sharing",
+      buttonOne: "Blender Video",
+      linkOne: xgamesVideo,
     },
  
     // ... other projects
@@ -139,7 +150,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      {/* <img className="background-image-left" src={colorSharp2}></img> */}
     </section>
   )
 }
