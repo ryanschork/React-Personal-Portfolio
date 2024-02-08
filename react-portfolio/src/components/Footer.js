@@ -22,6 +22,7 @@ export const Footer = () => {
                             {/* <a href=""><img src={navIcon3} /></a> */}
                         </div>
                         <p>Copyright 2024. All Rights Reserved by Ryan Schork.</p>
+                        <p>Email: schorktr@vcu.edu</p>
                     </Col>
                 </Row>
             </Container>

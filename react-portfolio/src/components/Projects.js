@@ -1,12 +1,13 @@
 import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png"
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg1 from "../assets/img/FolioTN.png";
+import projImg2 from "../assets/img/littlelemon.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/wingmane.png";
 import projImg5 from "../assets/img/malist.png";
 import projImg6 from "../assets/img/xgames.png";
+import projImg7 from "../assets/img/BiB.png";
 import React, { useState } from 'react';
 import xgamesVideo from "../assets/img/xgamesims.mp4"
 
@@ -15,22 +16,22 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Wingman",
-      description: "UX/UI Design",
+      title: "Personal Portfolio",
+      description: "Front-end Development | React",
       imgUrl: projImg1,
       button: "Demo",
+      link: "https://ryanschork.github.io/React-Personal-Portfolio/",
       buttonOne: "Github",
-      link:""
+      linkOne:"https://github.com/ryanschork/React-Personal-Portfolio"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Little Lemon Table Reserve",
+      description: "Front-end Development | React",
       imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      button: "About the project",
+      link: "https://github.com/ryanschork/Meta-Capstone-Project/tree/main/LittleLemon_Reserve#little-lemon-booking-website",
+      buttonOne: "Github",
+      linkOne:"https://github.com/ryanschork/Meta-Capstone-Project/tree/main/LittleLemon_Reserve"
     },
     {
       title: "Wingman",
@@ -59,7 +60,16 @@ export const Projects = () => {
       buttonOne: "Blender Video",
       linkOne: xgamesVideo,
     },
- 
+    {
+      title: "Fantasy Novel Sample",
+      description: "Creative Writing",
+      imgUrl: projImg7,
+      button: "Chapter 0",
+      link: "https://www.wattpad.com/1285070660-born-in-blood-chapter-zero",
+      buttonOne: "More to come!",
+      linkOne: "https://www.wattpad.com/story/326388037-born-in-blood",
+    },
+
     // ... other projects
   ];
 
@@ -67,19 +77,18 @@ export const Projects = () => {
     first: [
       projects[0],
       projects[1],
-      projects[2],
     ],
     second: [
+      projects[2],
       projects[3],
       projects[4],
-      projects[5],
     ],
     third: [
+      projects[5],
       projects[6],
       projects[7],
       projects[8],
       projects[9],
-      projects[10],
     ],
   };
 
@@ -89,7 +98,7 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>Lorem Ipsum is placeholder text.</p>
+            <p>Check out my latest work!</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first" onSelect={(k) => setKey(k)}>
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>

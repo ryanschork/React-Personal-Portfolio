@@ -7,8 +7,8 @@ export const ProjectCard = ({title, description, imgUrl, button, link, buttonOne
                 <div className="proj-txtx">
                     <h4>{title}</h4>
                     <span>{description}</span>
-                    <a href={link}><button className="proj-btn">{button}</button></a>
-                    <a href={linkOne}><button className="git-btn">{buttonOne}</button></a>
+                    <a href={link} target="_blank" rel="noopener noreferrer"><button className="proj-btn">{button}</button></a>
+                    <a href={linkOne} target="_blank" rel="noopener noreferrer"><button className="git-btn">{buttonOne}</button></a>
                 </div>
             </div>
         </Col>
