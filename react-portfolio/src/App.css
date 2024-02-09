@@ -236,6 +236,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+
 .Logo {
   color: #fff;
   font-weight: 700;
@@ -281,6 +282,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Logo  {
+    font-size: 25px;
+  }
+  #myTab {
+    font-size: 5px;
+
   }
 }
 
@@ -352,6 +363,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+@media screen and (max-width: 1000px) {
+  .banner h1 {
+    font-size: 30px;
+  }
 }
 
 /************ About Css ************/

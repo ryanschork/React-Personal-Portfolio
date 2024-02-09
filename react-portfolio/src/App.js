@@ -6,7 +6,7 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Footer } from './components/Footer';
 import { Contact } from "./components/Contact";
-import { About } from "./components/About";
+import { About } from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
