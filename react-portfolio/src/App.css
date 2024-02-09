@@ -287,11 +287,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media screen and (max-width: 1000px) {
   .Logo  {
-    font-size: 25px;
+    font-size: 20px;
+    margin: 0 auto;
   }
-  #myTab {
-    font-size: 5px;
+  nav.navbar {
+    padding: 10px 0;
+  }
 
+  nav.navbar a.navbar-brand {
+    width: 20%;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Logo {
+    font-size: 25px;
   }
 }
 
@@ -369,6 +384,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 600px) {
+  .banner h1 {
+    font-size: 22px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+  .banner button {
+    font-size: 18px;
+  }
+  .astro {
+    margin-top: 20px;
+  }
+
+}
 
 /************ About Css ************/
 .about {
@@ -400,6 +430,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media screen and (max-width: 600px) {
   .about-bx {
     width: 100vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about-bx {
+    width: 80%;
   }
 }
 
@@ -602,6 +637,33 @@ margin: 0 auto 15px auto;
   text-decoration: none;
 }
 
+@media screen and (max-width: 600px) {
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+  .proj-imgbx {
+    margin-bottom: 20px;
+  }
+  .proj-imgbx::before {
+    opacity: 0.75;
+  }
+  .proj-txtx h4 {
+    font-size: 20px;
+  }
+  .proj-txtx span {
+    font-size: 14px;
+  }
+  .proj-btn {
+    padding: 15px 35px;
+    font-size: 16px;
+  }
+  .git-btn {
+    padding: 15px 35px;
+    font-size: 16px;
+  }
+}
+
+
 /************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -759,4 +821,28 @@ margin: 0 auto 15px auto;
   color: #fff;
   font-weight: 700;
 }
-
+@media screen and (max-width: 1000px) {
+  .footer img {
+    width: 40%;
+  }
+  .newsletter-bx {
+    padding: 85px 50px;
+  }
+  .newsletter-bx h3 {
+    font-size: 20px;
+  }
+  .new-email-bx input {
+    padding: 0 10px;
+  }
+  .new-email-bx button {
+    padding: 10px 25px;
+  }
+  .new-email-bx {
+    border: 2px solid #121212;
+  }
+}
+@media screen and (max-width: 600px) {
+  .new-email-bx {
+    border: 2px solid #121212;
+  }
+}
